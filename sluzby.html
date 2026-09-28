@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Přehled služeb | LOGSPEED CZ s.r.o.</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- HORNÍ KONTAKTNÍ LIŠTA -->
+  <div class="top-bar">
+    <div class="top-bar-info">
+      <span><i class="fa-solid fa-phone"></i> Dispečink: +420 775 871 937</span>
+      <span><i class="fa-solid fa-envelope"></i> ratimova@logspeed.cz</span>
+      <span><i class="fa-solid fa-location-dot"></i> Plzeň – Borská pole</span>
+    </div>
+    <a href="#" class="login-btn-top"><i class="fa-solid fa-user"></i> Login</a>
+  </div>
+
+  <!-- HLAVNÍ HLAVIČKA A MENU -->
+  <header class="main-header">
+    <div class="logo-container">
+      <a href="index.html">
+        <img src="images/logo.png" alt="LOGSPEED CZ Logo" class="logo-img" onerror="this.src='https://via.placeholder.com/200x55?text=LOGSPEED+CZ'">
+      </a>
+      <div class="logo-slogan">
+        Komplexní řešení pro Vaši dopravu.
+      </div>
+    </div>
+
+    <nav>
+      <ul class="nav-menu">
+        <li class="nav-item"><a href="index.html" class="nav-link">Úvod</a></li>
+        
+        <li class="nav-item">
+          <a href="o-nas.html" class="nav-link">O nás <i class="fa-solid fa-chevron-down" style="font-size: 0.7rem;"></i></a>
+          <ul class="dropdown-menu">
+            <li><a href="o-nas.html" class="dropdown-item">O společnosti</a></li>
+            <li><a href="ass-truck.html" class="dropdown-item">ASS TRUCK</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item active">
+          <a href="sluzby.html" class="nav-link">Služby <i class="fa-solid fa-chevron-down" style="font-size: 0.7rem;"></i></a>
+          <ul class="dropdown-menu">
+            <li><a href="sluzby.html" class="dropdown-item">Přehled služeb</a></li>
+            <li><a href="doprava-spedice.html" class="dropdown-item">Doprava a spedice</a></li>
+            <li><a href="skladovani-logistika.html" class="dropdown-item">Skladování a logistika</a></li>
+            <li><a href="cerpaci-stanice.html" class="dropdown-item">Čerpací stanice</a></li>
+            <li><a href="parkovani.html" class="dropdown-item">Parkování</a></li>
+            <li><a href="myci-linka.html" class="dropdown-item">Mycí linka</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item"><a href="pronajmy-prodeje.html" class="nav-link">Pronájmy / Prodeje</a></li>
+        <li class="nav-item"><a href="kontakty.html" class="nav-link">Kontakty</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- BANNER STRÁNKY -->
+  <section class="hero-section">
+    <h1 class="hero-title">Přehled našich služeb</h1>
+    <p class="hero-subtitle">Poskytujeme kompletní logistický servis v Plzni na Borských polích pod jednou střechou.</p>
+  </section>
+
+  <!-- OBSAH STRÁNKY -->
+  <main class="container">
+    <h2 class="section-title">Co pro Vás můžeme udělat</h2>
+
+    <div class="grid-3">
+      
+      <!-- KARTA 1: DOPRAVA -->
+      <div class="card">
+        <div class="card-icon"><i class="fa-solid fa-truck-fast"></i></div>
+        <h3 class="card-title">Doprava a spedice</h3>
+        <p>Zajišťujeme vnitrostátní a mezinárodní silniční přepravu nákladů od dodávek po těžké soupravy do 24 t. Vytěžování vozidel po celé Evropě.</p>
+        <a href="doprava-spedice.html" style="display:inline-block; margin-top: 15px; color: var(--accent-color); font-weight: 600;">Detail služby &rarr;</a>
+      </div>
+
+      <!-- KARTA 2: SKLADOVÁNÍ -->
+      <div class="card">
+        <div class="card-icon"><i class="fa-solid fa-warehouse"></i></div>
+        <h3 class="card-title">Skladování a logistika</h3>
+        <p>Skladovací kapacity v Plzni – Borská pole. Skladování v halách, na volných plochách, celní sklad i kompletní logistický servis.</p>
+        <a href="skladovani-logistika.html" style="display:inline-block; margin-top: 15px; color: var(--accent-color); font-weight: 600;">Detail služby &rarr;</a>
+      </div>
+
+      <!-- KARTA 3: ČERPACÍ STANICE -->
+      <div class="card">
+        <div class="card-icon"><i class="fa-solid fa-gas-pump"></i></div>
+        <h3 class="card-title">Čerpací stanice</h3>
+        <p>Vlastní čerpací stanice v logistickém areálu. Nabídka pohonných hmot (Nafta, AdBlue) s možností kartového i hotovostního systému.</p>
+        <a href="cerpaci-stanice.html" style="display:inline-block; margin-top: 15px; color: var(--accent-color); font-weight: 600;">Detail služby &rarr;</a>
+      </div>
+
+      <!-- KARTA 4: PARKOVÁNÍ -->
+      <div class="card">
+        <div class="card-icon"><i class="fa-solid fa-square-parking"></i></div>
+        <h3 class="card-title">Parkování</h3>
+        <p>Velkokapacitní střežené parkoviště pro kamiony a osobní automobily (přes 200 míst) přímo u sjezdu z dálnice D5.</p>
+        <a href="parkovani.html" style="display:inline-block; margin-top: 15px; color: var(--accent-color); font-weight: 600;">Detail služby &rarr;</a>
+      </div>
+
+      <!-- KARTA 5: MYCÍ LINKA -->
+      <div class="card">
+        <div class="card-icon"><i class="fa-solid fa-shower"></i></div>
+        <h3 class="card-title">Mycí linka</h3>
+        <p>Samoobslužná i automatická mycí linka určená pro nákladní vozidla, kamiony, autobusy i užitkové vozy v Plzni.</p>
+        <a href="myci-linka.html" style="display:inline-block; margin-top: 15px; color: var(--accent-color); font-weight: 600;">Detail služby &rarr;</a>
+      </div>
+
+      <!-- KARTA 6: PRONÁJMY -->
+      <div class="card">
+        <div class="card-icon"><i class="fa-solid fa-building"></i></div>
+        <h3 class="card-title">Pronájmy a prodeje</h3>
+        <p>Pronájem kanceláří, skladových hal, odstavných ploch a nebytových prostor v atraktivní lokalitě Plzeň – Borská pole.</p>
+        <a href="pronajmy-prodeje.html" style="display:inline-block; margin-top: 15px; color: var(--accent-color); font-weight: 600;">Detail služby &rarr;</a>
+      </div>
+
+    </div>
+
+    <!-- POPTÁVKA -->
+    <div class="cta-banner">
+      <div>
+        <h3 style="font-size: 1.4rem; margin-bottom: 5px;">Máte specifický požadavek na logistiku?</h3>
+        <p style="opacity: 0.9;">Navrhneme vám řešení přímo na míru vašim potřebám.</p>
+      </div>
+      <a href="tel:+420775871937" class="cta-btn"><i class="fa-solid fa-phone"></i> +420 775 871 937</a>
+    </div>
+
+  </main>
+
+  <!-- PATKA -->
+  <footer class="main-footer">
+    <div class="footer-bottom">
+      <p>&copy; 2026 LOGSPEED CZ s.r.o. Všechna práva vyhrazena. | Plzeň – Borská pole</p>
+    </div>
+  </footer>
+
+</body>
+</html>

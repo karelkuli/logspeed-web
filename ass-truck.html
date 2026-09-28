@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ASS TRUCK | LOGSPEED CZ s.r.o.</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- HORNÍ KONTAKTNÍ LIŠTA -->
+  <div class="top-bar">
+    <div class="top-bar-info">
+      <span><i class="fa-solid fa-phone"></i> Dispečink: +420 775 871 937</span>
+      <span><i class="fa-solid fa-envelope"></i> ratimova@logspeed.cz</span>
+      <span><i class="fa-solid fa-location-dot"></i> Plzeň – Borská pole</span>
+    </div>
+    <a href="#" class="login-btn-top"><i class="fa-solid fa-user"></i> Login</a>
+  </div>
+
+  <!-- HLAVNÍ HLAVIČKA A MENU -->
+  <header class="main-header">
+    <div class="logo-container">
+      <a href="index.html">
+        <img src="images/logo.png" alt="LOGSPEED CZ Logo" class="logo-img" onerror="this.src='https://via.placeholder.com/200x55?text=LOGSPEED+CZ'">
+      </a>
+      <div class="logo-slogan">
+        Komplexní řešení pro Vaši dopravu.
+      </div>
+    </div>
+
+    <nav>
+      <ul class="nav-menu">
+        <li class="nav-item"><a href="index.html" class="nav-link">Úvod</a></li>
+        
+        <li class="nav-item active">
+          <a href="o-nas.html" class="nav-link">O nás <i class="fa-solid fa-chevron-down" style="font-size: 0.7rem;"></i></a>
+          <ul class="dropdown-menu">
+            <li><a href="o-nas.html" class="dropdown-item">O společnosti</a></li>
+            <li><a href="ass-truck.html" class="dropdown-item">ASS TRUCK</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a href="sluzby.html" class="nav-link">Služby <i class="fa-solid fa-chevron-down" style="font-size: 0.7rem;"></i></a>
+          <ul class="dropdown-menu">
+            <li><a href="sluzby.html" class="dropdown-item">Přehled služeb</a></li>
+            <li><a href="doprava-spedice.html" class="dropdown-item">Doprava a spedice</a></li>
+            <li><a href="skladovani-logistika.html" class="dropdown-item">Skladování a logistika</a></li>
+            <li><a href="cerpaci-stanice.html" class="dropdown-item">Čerpací stanice</a></li>
+            <li><a href="parkovani.html" class="dropdown-item">Parkování</a></li>
+            <li><a href="myci-linka.html" class="dropdown-item">Mycí linka</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item"><a href="pronajmy-prodeje.html" class="nav-link">Pronájmy / Prodeje</a></li>
+        <li class="nav-item"><a href="kontakty.html" class="nav-link">Kontakty</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- BANNER STRÁNKY -->
+  <section class="hero-section">
+    <h1 class="hero-title">ASS TRUCK</h1>
+    <p class="hero-subtitle">Asistenční a servisní služby pro nákladní vozidla.</p>
+  </section>
+
+  <!-- OBSAH STRÁNKY -->
+  <main class="container">
+    
+    <div style="max-width: 800px; margin: 40px auto; text-align: center;">
+      <div class="card" style="padding: 50px 30px; border-top-color: var(--accent-color);">
+        <i class="fa-solid fa-triangle-exclamation" style="font-size: 4rem; color: var(--accent-color); margin-bottom: 20px;"></i>
+        <h2 style="color: var(--primary-color); margin-bottom: 15px;">Služba mimo provoz</h2>
+        <p style="font-size: 1.1rem; color: var(--text-muted); margin-bottom: 30px;">
+          Tato sekce a služba ASS TRUCK je v současné době <strong>mimo provoz</strong>. Pro více informací o našich ostatních dostupných službách nás neváhejte kontaktovat.
+        </p>
+        
+        <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
+          <a href="sluzby.html" class="cta-btn" style="background: var(--primary-color); color: white;">Naše služby</a>
+          <a href="kontakty.html" class="cta-btn">Kontaktujte nás</a>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- PATKA -->
+  <footer class="main-footer">
+    <div class="footer-bottom">
+      <p>&copy; 2026 LOGSPEED CZ s.r.o. Všechna práva vyhrazena. | Plzeň – Borská pole</p>
+    </div>
+  </footer>
+
+</body>
+</html>

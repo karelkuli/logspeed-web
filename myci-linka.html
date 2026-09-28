@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mycí linka | LOGSPEED CZ s.r.o.</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- HORNÍ KONTAKTNÍ LIŠTA -->
+  <div class="top-bar">
+    <div class="top-bar-info">
+      <span><i class="fa-solid fa-phone"></i> Dispečink: +420 775 871 937</span>
+      <span><i class="fa-solid fa-envelope"></i> ratimova@logspeed.cz</span>
+      <span><i class="fa-solid fa-location-dot"></i> Plzeň – Borská pole</span>
+    </div>
+    <a href="#" class="login-btn-top"><i class="fa-solid fa-user"></i> Login</a>
+  </div>
+
+  <!-- HLAVNÍ HLAVIČKA A MENU -->
+  <header class="main-header">
+    <div class="logo-container">
+      <a href="index.html">
+        <img src="images/logo.png" alt="LOGSPEED CZ Logo" class="logo-img" onerror="this.src='https://via.placeholder.com/200x55?text=LOGSPEED+CZ'">
+      </a>
+      <div class="logo-slogan">
+        Komplexní řešení pro Vaši dopravu.
+      </div>
+    </div>
+
+    <nav>
+      <ul class="nav-menu">
+        <li class="nav-item"><a href="index.html" class="nav-link">Úvod</a></li>
+        
+        <li class="nav-item">
+          <a href="o-nas.html" class="nav-link">O nás <i class="fa-solid fa-chevron-down" style="font-size: 0.7rem;"></i></a>
+          <ul class="dropdown-menu">
+            <li><a href="o-nas.html" class="dropdown-item">O společnosti</a></li>
+            <li><a href="ass-truck.html" class="dropdown-item">ASS TRUCK</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item active">
+          <a href="sluzby.html" class="nav-link">Služby <i class="fa-solid fa-chevron-down" style="font-size: 0.7rem;"></i></a>
+          <ul class="dropdown-menu">
+            <li><a href="sluzby.html" class="dropdown-item">Přehled služeb</a></li>
+            <li><a href="doprava-spedice.html" class="dropdown-item">Doprava a spedice</a></li>
+            <li><a href="skladovani-logistika.html" class="dropdown-item">Skladování a logistika</a></li>
+            <li><a href="cerpaci-stanice.html" class="dropdown-item">Čerpací stanice</a></li>
+            <li><a href="parkovani.html" class="dropdown-item">Parkování</a></li>
+            <li><a href="myci-linka.html" class="dropdown-item">Mycí linka</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item"><a href="pronajmy-prodeje.html" class="nav-link">Pronájmy / Prodeje</a></li>
+        <li class="nav-item"><a href="kontakty.html" class="nav-link">Kontakty</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- BANNER STRÁNKY -->
+  <section class="hero-section">
+    <h1 class="hero-title">Mycí linka pro vozidla</h1>
+    <p class="hero-subtitle">Profesionální mytí osobních aut, dodávek, kamionů, cisteren i speciální techniky v Plzni.</p>
+  </section>
+
+  <!-- OBSAH STRÁNKY -->
+  <main class="container">
+    
+    <div class="grid-2" style="align-items: start;">
+      
+      <!-- LEVÝ SLOUPEC: INFORMACE A KONTAKT -->
+      <div>
+        <h2 class="section-title">O provozu mycí linky</h2>
+        <p style="margin-bottom: 15px;">Naše velkokapacitní mycí linka se nachází na adrese <strong>Domažlická 178, Plzeň</strong>. Poskytujeme špičkové ruční i automatické mytí pro všechny typy silničních vozidel.</p>
+
+        <div class="card" style="border-top-color: var(--accent-color); margin-bottom: 25px;">
+          <h4 style="color: var(--primary-color); margin-bottom: 12px;"><i class="fa-solid fa-clock" style="color: var(--accent-color); margin-right: 8px;"></i> Provozní doba</h4>
+          <p style="margin-bottom: 8px;"><strong>Pondělí – Pátek:</strong> 7:00 – 18:00</p>
+          <p style="color: var(--text-muted); font-size: 0.9rem;">Platby jsou možné v hotovosti (CZK / EUR) i platební kartou.</p>
+        </div>
+
+        <div class="card" style="border-top-color: var(--primary-color);">
+          <h4 style="color: var(--primary-color); margin-bottom: 12px;"><i class="fa-solid fa-user-tie" style="color: var(--accent-color); margin-right: 8px;"></i> Vedoucí mycí linky</h4>
+          <p style="font-weight: 600; font-size: 1.1rem; color: var(--primary-color); margin-bottom: 5px;">Miloslav Šíma</p>
+          <p><i class="fa-solid fa-phone" style="color: var(--accent-color); margin-right: 8px;"></i> <strong>+420 775 871 906</strong></p>
+        </div>
+      </div>
+
+      <!-- PRAVÝ SLOUPEC: DETAILNÍ CENÍK -->
+      <div>
+        <h2 class="section-title">Ceník mytí vozidel</h2>
+        
+        <table class="price-table">
+          <thead>
+            <tr>
+              <th>Typ vozidla / Služba</th>
+              <th>Cena (bez DPH)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Osobní automobil</strong> (základní mytí)</td>
+              <td>od 250 Kč</td>
+            </tr>
+            <tr>
+              <td><strong>Dodávka / SUV / Minibus</strong></td>
+              <td>od 400 Kč</td>
+            </tr>
+            <tr>
+              <td><strong>Tahač / Nákladní vůz</strong> (venkovní mytí)</td>
+              <td>od 850 Kč</td>
+            </tr>
+            <tr>
+              <td><strong>Souprava</strong> (tahač + návěs / autovlak)</td>
+              <td>od 1 400 Kč</td>
+            </tr>
+            <tr>
+              <td><strong>Cisterna / Speciální nástavba</strong></td>
+              <td>Dle rozsahu (od 1 600 Kč)</td>
+            </tr>
+            <tr>
+              <td><strong>Vnitřní mytí sklápěček / návěsů</strong></td>
+              <td>od 500 Kč</td>
+            </tr>
+            <tr>
+              <td><strong>Příplatek: Aktivní pěna / Odmaštění</strong></td>
+              <td>+ 150 Kč</td>
+            </tr>
+          </tbody>
+        </table>
+        <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 5px;">* Uvedené ceny jsou orientační a mohou se lišit dle míry znečištění vozidla.</p>
+      </div>
+
+    </div>
+
+    <!-- POPTÁVKA -->
+    <div class="cta-banner" style="margin-top: 40px;">
+      <div>
+        <h3 style="font-size: 1.4rem; margin-bottom: 5px;">Potřebujete umýt firemní flotilu nebo kamion?</h3>
+        <p style="opacity: 0.9;">Zavolejte přímo na mycí linku a domluvte si termín bez čekání.</p>
+      </div>
+      <a href="tel:+420775871906" class="cta-btn"><i class="fa-solid fa-phone"></i> +420 775 871 906</a>
+    </div>
+
+  </main>
+
+  <!-- PATKA -->
+  <footer class="main-footer">
+    <div class="footer-bottom">
+      <p>&copy; 2026 LOGSPEED CZ s.r.o. Všechna práva vyhrazena. | Plzeň – Borská pole</p>
+    </div>
+  </footer>
+
+</body>
+</html>
